@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSKTM IT Club</title>
+    <style>
+        /* Task 2: Page reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Task 2: Main container */
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            min-height: 600px;
+        }
+
+        /* Task 2: Major regions spacing */
+        .logo, .navigation, .content, .footer {
+            margin-top: 10px;
+        }
+
+        /* Task 2 & 3: Region styling and heights */
+        .logo {
+            min-height: 100px;
+            background-color: #0b192c; /* Sample contrasting color */
+            padding: 4%;
+            background-image: url('header.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .logo h1 {
+            color: rgb(255, 255, 255);
+            margin: 0; 
+            margin-bottom: 5px; /* Adds just a small gap below the title */
+        }
+        .logo h5 {
+            color: rgb(165, 218, 224);
+            margin: 0; 
+        }
+
+        .navigation {
+            min-height: 50px;
+            background-color: #1a365d;
+            color: white;
+            padding: 15px;
+        }
+
+        /* Task 2: Content layout */
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            min-height: 400px;
+        }
+
+        /* Task 2: Two content columns */
+        .side-bar {
+            width: 20%;
+            background-color: #e2e8f0;
+            padding: 15px;
+        }
+        .side-bar h3 {
+            color: #1a365d;
+        }
+        .side-bar j {
+            color: #1a365d;
+        }
+
+        .body-area {
+            width: 70%;
+            background-color: #e2e8f0;
+            padding: 20px;
+        }
+        .body-area p {
+            padding-top: 10px;
+        }
+
+        .footer {
+            min-height: 20px;
+            background-color: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Task 1: Build the HTML structure -->
+    <div class="container">
+        
+        <div class="logo">
+            <h1>FSKTM IT Club</h1>
+            <h5>Learn. Build. Innovate. Together.</h5>
+        </div>
+
+        <div class="navigation">
+            <p>Home &nbsp;|&nbsp; About &nbsp;|&nbsp; Events &nbsp;|&nbsp; Contact</p>
+        </div>
+
+        <div class="content">
+            <div class="side-bar" style="padding: 20px;">
+                <h3>Club Corner</h3>
+                <p>Explore activities and opportunities available to our members.</p>
+                <br>
+    
+                <ul style="padding-left: 25px; padding-bottom: 15px;">
+                    <li><a href="#">Upcoming Events</a></li>
+                    <li><a href="#">Learning Resources</a></li>
+                    <li><a href="#">Join the Club</a></li>
+                </ul>
+
+                <hr>
+
+                <j><strong>Weekly meet-up</strong><br></j>
+                    <p>Wednesday, 3:00 PM<br>
+                    Student Activity Room</p>
+        </div>
+
+            <div class="body-area">
+                <h2>Discover Technology, Create Possibilities</h2>
+                <p>Welcome to Campus Tech Society! We are a student-led community that brings together people interested in web development, programming, design and emerging technology.</p>
+                <br>
+                <hr>
+                <h2>About Our Club</h2>
+                <p>Our mission is to help students build practical skills through hands-on workshops, mini projects and knowledge-sharing sessions.</p>
+                <br>
+                <hr>
+                <h2>Upcoming Activities</h2>
+                <p>
+                    <li><strong>HTML & CSS Workshop:</strong> Create your first website.</li>
+                    <li><strong>Hackathon Day:</strong> build an idea with your team.</li>
+                    <li><strong>Tech Talk:</strong> Learn from industry speakers.</li>
+                </p>
+                <hr>
+                <h2>Learning Resources</h2>
+                <p>Start learning with free tutorial at <a href="#">W3 School</a></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 FSKTM IT Club. All rights reserved.</p>
+        </div>
+
+    </div>
+</body>
+</html>
